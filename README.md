@@ -24,6 +24,14 @@ pip install -r pip_requirements.txt
 ### How to use the library
 Tell us how the code is arranged, any explanations goes here.
 
+### Data sets
+Kaggle Links:
+
+Oscars Data: https://www.kaggle.com/datasets/unanimad/the-oscar-award
+
+Metacritic Movie Data: https://www.kaggle.com/datasets/patkle/metacritic-scores-for-games-movies-tv-and-music
+
+IMDB Data: https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 
 
 ## Project Structure
