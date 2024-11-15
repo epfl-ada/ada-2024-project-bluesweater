@@ -131,6 +131,13 @@ This section was initially intended to explore how gender and age representation
 
 The concept was intriguing but too vague and lacked sufficient data for meaningful analysis. So pursuing this risked producing unreliable conclusions.
 
+## Extra Regression Analysis 
+To further support some of the sections above and explore new, potentially important covariates, we perform regression analysis to examine the relationships between various factors and movie success metrics. This analysis allows us to quantify the influence of key features like runtime, director success, release timing, and genre popularity on outcomes such as Box Office Revenue and IMDb Ratings.
+
+In our regression model, we identified a positive additive effect of runtime, suggesting that longer films tend to perform better, both commercially and critically. Similarly, release timing, particularly for movies released during the summer and winter months, was found to significantly impact success, confirming the seasonal trends noted earlier. Additionally, director frequency and genre popularity emerged as strong predictors of success, with more frequent directors and well-established genres correlating with higher box office earnings and better audience reception.
+
+This regression analysis supports our earlier findings and provides more nuanced insights into which covariates have the most impact on a movie's success. By isolating the effects of these individual features, we can better understand the relationships between them and refine our predictive models for milestone 3. 
+
 
 ## Possible Additions for Milestone 3 
 The biggest challenge we faced in this milestone was the significant amount of missing data, particularly in critical columns like box office revenue and total revenue, which are essential for answering questions about what defines a movie's success. Dropping these entries or filling them with the column mean would result in unreliable analysis.
@@ -139,7 +146,8 @@ To address this, we incorporated as many supplementary datasets as possible. Whi
 
 Additionally, if we can retrieve more revenue and box office data, we propose adjusting monetary values for inflation. Since our dataset spans movies from the 20th to the 21st century, accounting for inflation would provide a more accurate representation of financial success across decades. We would also like to confirm with our TA if this approach is advisable.
 
-We could also could consider conducting a linear regression analysis to identify any positive additive coefficients between certain features (such as actor success, release timing, and tropes) and key outcomes like rankings, box office revenue, and overall movie success. This approach would help us pinpoint the "success predictors" in the data.
+Moreover, based on our regression analysis, we should add runtime and director frequency as key features to identify their positive additive effects on outcomes such as rankings, box office revenue, and overall movie success. This approach will help us pinpoint additional "success predictors" in the data.
+
 
 Lastly, as our chosen theme was inspired by a scientific lab, we plan to incorporate this concept into our final data story. In this narrative, we are the scientists, the TA takes on the role of the head scientist or lab director, the sections represent the "chemical" ingredients, and our central question of movie success is the magic concoction we're trying to create. This thematic approach will help frame our analysis in a more engaging and cohesive manner.
 
