@@ -1,7 +1,15 @@
 
 # Lights, Camera, Success: What Makes a Movie Shine at the Box Office?
 ## Abstract
-Welcome to the movie lab, where we believe movies are like chemical reactions, a blend of elements that can either explode into blockbuster magic or fizzle into obscurity. Today, data lets us break down these cinematic "potions" to understand what makes them tick. From budgets and genres to audience sentiment and box office numbers, each element plays a role in the volatile recipe of success. Our project investigates these factors by analyzing how they interact to create hits—or misses. First, we’ll quantify relationships between variables like star power, storytelling, and timing. Then, we’ll test how these “ingredients” combine to shape a film’s performance. This approach could reveal the alchemy behind the movies we love, offering new insights into how audiences connect with cinema. Understanding these dynamics might even help creators brew the perfect mix for the next cultural phenomenon. By approaching cinema through the lens of data, we aim to decode the magic of storytelling and shed light on what truly resonates with audiences. This could open new doors for filmmakers looking to craft their next unforgettable experience.
+
+Welcome to the Movie Lab, where we view movies as complex chemical reactions—blending various elements that can either explode into blockbuster magic or fizzle into obscurity!
+
+In the Blue Sweater lab, we aim to break down these cinematic "potions" to uncover the secrets behind their success. From budgets and genres to audience scores and box office numbers, each element plays a vital role in a movie's recipe for success. Our central question is: *What ingredients influence the success of a movie concoction*? We'll be analyzing ingredients like movie ratings, actors, Oscar wins, movie tropes, ...
+
+We'll start by examining each ingredient individually, analyzing its characteristics and role. Then, we'll explore how these elements interrelate and test their collective impact on a movie's success. This process aims to uncover the alchemy behind the films we love, providing valuable insights into how audiences connect with cinema.
+
+By approaching movies through a data-driven lens, we hope to decode the magic of storytelling and highlight what resonates with audiences. This knowledge could even help filmmakers craft the perfect mix for their next cultural phenomenon.
+
 
 ## Research questions we will aim to answer
 1) Which countries or regions have gained significant influence in the global cinema landscape in recent years?
