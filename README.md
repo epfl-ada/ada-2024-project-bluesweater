@@ -4,14 +4,13 @@
 Welcome to the movie lab, where we believe movies are like chemical reactions, a blend of elements that can either explode into blockbuster magic or fizzle into obscurity. Today, data lets us break down these cinematic "potions" to understand what makes them tick. From budgets and genres to audience sentiment and box office numbers, each element plays a role in the volatile recipe of success. Our project investigates these factors by analyzing how they interact to create hits—or misses. First, we’ll quantify relationships between variables like star power, storytelling, and timing. Then, we’ll test how these “ingredients” combine to shape a film’s performance. This approach could reveal the alchemy behind the movies we love, offering new insights into how audiences connect with cinema. Understanding these dynamics might even help creators brew the perfect mix for the next cultural phenomenon. By approaching cinema through the lens of data, we aim to decode the magic of storytelling and shed light on what truly resonates with audiences. This could open new doors for filmmakers looking to craft their next unforgettable experience.
 
 ## Research questions we will aim to answer
-1) How interconnected are global film industries through shared actors, directors, and production collaborations?
-2) Which countries or regions have gained significant influence in the global cinema landscape in recent years?
-3) What metrics define a successful acting career, and how do collaborations with high-profile individuals impact it?
-4) Which character tropes and gender pairings are most frequently associated with box office and critical success?
-5) Does a high budget guarantee commercial success, or are other factors more influential?
-6) What is the relationship between a movie's box office-to-budget ratio and its overall performance?
-7) When is the optimal time to release a movie to maximize audience reception and revenue?
-8) How do seasonal and cultural trends influence the success of specific genres or sequels?
+1) Which countries or regions have gained significant influence in the global cinema landscape in recent years?
+2) What metrics define a successful acting career, and how do collaborations with high-profile individuals impact it?
+3) Which character tropes and gender pairings are most frequently associated with box office and critical success?
+4) Does a high budget guarantee commercial success, or are other factors more influential?
+5) What is the relationship between a movie's box office-to-budget ratio and its overall performance?
+6) When is the optimal time to release a movie to maximize audience reception and revenue?
+7) How do seasonal and cultural trends influence the success of specific genres or sequels?
 
 
 
