@@ -118,29 +118,32 @@ As mentioned previously, our code is organized into the following directories an
 - readme (this file) provides an overview of the project and a brief explanation of how the work in results.ipynb is structured. 
 
 
-### Side note about "Towards Inclusivity Section"
+## Side note about "Towards Inclusivity Section"
 This section was initially intended to explore how gender and age representation impact commercial success across genres and regions, as well as whether the movie industry is evolving toward inclusivity in terms of gender, race, and age. However, after careful consideration, we decided to remove this idea from our analysis.
-
 
 The concept was intriguing but too vague and lacked sufficient data for meaningful analysis. So pursuing this risked producing unreliable conclusions.
 
 
-### Improvements for Milestone 3 
+## Improvements for Milestone 3 
 The biggest challenge we faced in this milestone was the significant amount of missing data, particularly in critical columns like box office revenue and total revenue, which are essential for answering questions about what defines a movie's success. Dropping these entries or filling them with the column mean would result in unreliable analysis.
 
 To address this, we incorporated as many supplementary datasets as possible. While this improved the situation slightly, gaps remain. For the final milestone, we propose using the *OMDB API*. One team member purchased access and tested it on a subset of our dataset, successfully filling some of the missing values for box office revenue, runtime, and other key metrics. However, with over 80,000 entries in our dataset and the API's limit of ~500 calls per minute, it would take at least three hours to complete. We would like to confirm with our TA if using the API at this scale is acceptable.
 
-
 Additionally, if we can retrieve more revenue and box office data, we propose adjusting monetary values for inflation. Since our dataset spans movies from the 20th to the 21st century, accounting for inflation would provide a more accurate representation of financial success across decades. We would also like to confirm with our TA if this approach is advisable.
 
+## Proposed Timeline 
 
 
 ### Conclusion: Insights on Cinema’s Key to Success
 In summary, our exploration of cinema’s key to success reveals the growing interconnectedness of global film industries, the influence of character tropes and representation diversity, and the nuanced impact of budget and timing on a movie’s performance. While high-profile collaborations and well-timed releases play crucial roles, audience reception and cultural relevance remain pivotal. These findings provide valuable insights for filmmakers seeking to navigate evolving industry trends and craft films that resonate both critically and commercially.
 
+Our key takeaway is that the most optimal strategy for a successful film would be to release it in the summer, centered around a stupid_crook or morally_bankrupt_banker trope to maximize both box office revenue and audience reception. 
+
+However, it’s important to note that our analysis was limited by missing data, especially in key metrics like box office revenue. Despite efforts to enrich the data with additional datasets, some gaps remain, yet the overall trends offer valuable insights for filmmakers navigating the evolving industry.
 
 
-## Project Structure
+
+## Project Structure (as providede by the ADA template)
 
 The directory structure of new project looks like this:
 
@@ -164,8 +167,20 @@ The directory structure of new project looks like this:
 
 ## Appendix 
 
-### Questions asked during first TA meeting
+### Questions Asked During First TA Meeting (Nov 1)
+
+- When the project description mentions a "data story," does it need to follow a consecutive narrative, or should we focus on presenting our data discovery and analysis in an engaging way?
+
+- Are the sections we've outlined above sufficient for the project?
+
+- Should the main focus be on how well we present the data analysis?
 
 
-### Questions asked during second TA meeting
+### Questions Asked During Second TA Meeting (Nov 8)
+
+- Is the use of Freebase entities mandatory?
+
+- Just to clarify, for P2, we should focus on cleaning, analyzing, and preparing the data for our questions, and that's the main goal?
+
+- What specific content should be included in the "Methods" section of the P2 deliverable?
 
