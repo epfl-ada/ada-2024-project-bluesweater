@@ -100,15 +100,22 @@ To explore and communicate the relationships between different variables, we bui
 . These included plots that helped us uncover trends and patterns related to movie success. We also added regression lines to some of the visualizations to better illustrate potential correlations and offer insights into the factors that may influence a movie’s performance.
 
 
-### Analysis Proposal 
+### Analysis Proposition  
 Once all the sections were completed and the data was cleaned and enriched, we brought everything together in the "results.ipynb" notebook. In this notebook, we started with the original CMU movie dataset and incorporated the enriched data step by step. As we progressed, we highlighted the importance of each section in relation to our primary research questions. We also documented any key relationships we observed and provided evidence to support our claims, ensuring that our analysis was grounded in solid data and thorough exploration.
 
 
 
-
 ## How to use the library
-Tell us how the code is arranged, any explanations goes here.
 
+As mentioned previously, our code is organized into the following directories and files:
+
+- pickles directory contains the pd versions of the datasets we used in the project. These pickled files allow for quick access during analysis, eliminating the need to reload raw data multiple times.
+
+- src/sections directory contains individual notebooks that focus on specific parts of the analysis. 
+
+- results.ipynb contains the entire workflow from all sections into one comprehensive notebook. Here, you'll find a full explanation of our analysis, results, and insights, eliminating the need to look through the individual section notebooks. It is much more streamlined and easier to follow here.
+
+- readme (this file) provides an overview of the project and a brief explanation of how the work in results.ipynb is structured. 
 
 
 ### Side note about "Towards Inclusivity Section"
