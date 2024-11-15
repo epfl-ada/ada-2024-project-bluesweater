@@ -136,10 +136,29 @@ We could also could consider conducting a linear regression analysis to identify
 Lastly, as our chosen theme was inspired by a scientific lab, we plan to incorporate this concept into our final data story. In this narrative, we are the scientists, the TA takes on the role of the head scientist or lab director, the sections represent the "chemical" ingredients, and our central question of movie success is the magic concoction we're trying to create. This thematic approach will help frame our analysis in a more engaging and cohesive manner.
 
 
-## Proposed Timeline 
+## Proposed Timeline (post H2 submission)
+
+### Week of Nov 25th: Planning & Preparation
+- Finalize data story structure and roles for team members.
+- Review top-k past projects for inspiration and decide on data visualizations.
+
+### Week of Dec 2nd: Data Analysis & Notebook Finalization
+- Conduct further data analysis (e.g., regression, p-values) and finalize visualizations.
+- Implement the OBDM API if its use is approved
+- Update and document the Jupyter notebook with all results and methods.
+
+### Week of Dec 9th: Data Story Creation
+
+- Draft the data story, focusing on clear narrative and visuals.
+- Integrate the scientific lab theme into the story creatively.
+
+### Week of Dec 16th: Finalization & Refinements
+- Finalize the data story and incorporate all necessary visuals.
+- Update README file and refine the Jupyter notebook for clarity.
 
 
-### Conclusion: Insights on Cinema’s Key to Success
+
+## Conclusion:
 In summary, our exploration of cinema’s key to success reveals the growing interconnectedness of global film industries, the influence of character tropes and representation diversity, and the nuanced impact of budget and timing on a movie’s performance. While high-profile collaborations and well-timed releases play crucial roles, audience reception and cultural relevance remain pivotal. These findings provide valuable insights for filmmakers seeking to navigate evolving industry trends and craft films that resonate both critically and commercially.
 
 Our key takeaway is that the most optimal strategy for a successful film would be to release it in the summer, centered around a stupid_crook or morally_bankrupt_banker trope to maximize both box office revenue and audience reception. 
