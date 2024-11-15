@@ -9,11 +9,15 @@ def plot_missing_data(df):
   y = np.sum(df.isnull())
   y = y[y > 0]
   y = y.sort_values(ascending=False)
+
+  # EDIT: increasing size for readability 
+  plt.figure(figsize=(12, 6))
+
   sns.barplot(y)
   plt.title(f"Number of missing values (out of {len(df)})")
-  plt.xticks(rotation=90, fontsize=10)
+  plt.xticks(rotation=90, fontsize=12)
   for i, v in enumerate(y):
-    plt.text(i, v + 2, str(v), ha='center', fontsize=10)
+    plt.text(i, v + 2, str(v), ha='center', fontsize=12)
 
   plt.show()
 
