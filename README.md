@@ -12,20 +12,6 @@ Welcome to the movie lab, where we believe movies are like chemical reactions, a
 6) When is the optimal time to release a movie to maximize audience reception and revenue?
 7) How do seasonal and cultural trends influence the success of specific genres or sequels?
 
-
-
-### How to use the library
-Tell us how the code is arranged, any explanations goes here.
-
-### Datasets
-Kaggle Links:
-
-Oscars Data: https://www.kaggle.com/datasets/unanimad/the-oscar-award
-
-Metacritic Movie Data: https://www.kaggle.com/datasets/patkle/metacritic-scores-for-games-movies-tv-and-music
-
-IMDB Data: https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
-
 ## Main project sections
 
 ### Section 1: Global Influence in Cinema  
@@ -45,6 +31,30 @@ Does a high budget truly guarantee commercial success, or are other factors more
 
 ### Section 5: Timing and Audience Reception
 Timing can make or break a movie’s success, but when is the optimal moment to release a film? This section explores the influence of seasonal and holiday periods on audience reception and box office revenue. By segmenting the year into distinct timeframes, we will analyze how factors such as genre, sequel status, and prevailing cultural moods align with release strategies. This investigation aims to identify patterns in audience behavior and uncover strategies that filmmakers and studios can use to maximize both reception and financial performance. Understanding the timing sweet spot could provide valuable insights into the art and science of film release planning.
+
+
+## Helper Datasets
+
+The biggest challenge we faced during this project was the missing data in key columns, such as Box Office and Revenue. To address these gaps, we utilized the following datasets:
+
+### TMDB Data
+The TMDB dataset provides valuable movie information, including box office revenue, popularity, and release data. By integrating this dataset, we were able to fill in a few gaps for missing box office and revenue information, helping us better assess the financial success of the films in our analysis. You can access the dataset [here](https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates).
+
+### IMDB Data
+The IMDB dataset offers a comprehensive collection of movie ratings, genres, and detailed film information. This dataset helped us fill in missing ratings and genres, enhancing our ability to assess movie success across different metrics. The dataset can be found [here](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset).
+
+### Oscars Data
+The Oscars dataset includes information about nominations, wins, and other key statistics related to the Academy Awards. This dataset was crucial in assessing the influence of awards on a movie's success and allowed us to integrate data regarding Oscar wins and nominations to refine our analysis of movie success. You can access the dataset [here](https://www.kaggle.com/datasets/unanimad/the-oscar-award).
+
+### Metacritic Movie Data
+The Metacritic dataset offers aggregated reviews and scores from critics, providing insights into how the industry and critics view movies. By incorporating this data, we were able to analyze the impact of critical reception on a movie's overall success and reputation. The dataset is available [here](https://www.kaggle.com/datasets/patkle/metacritic-scores-for-games-movies-tv-and-music).
+
+
+## Methods
+
+## How to use the library
+Tell us how the code is arranged, any explanations goes here.
+
 
 
 ### Side note about "Towards Inclusivity Section"
