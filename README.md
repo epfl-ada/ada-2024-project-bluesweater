@@ -30,13 +30,13 @@ IMDB Data: https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 ## Main project sections
 
 ### Section 1: Global Influence in Cinema  
-Global cinema has become increasingly interconnected, with countries and regions collaborating on productions, sharing talent, culture and influencing each other’s storytelling styles. To explore this phenomenon, we aim to apply graph theory to map the connections between countries, actors, and directors, visualizing the intricate web of international film collaborations. By analyzing these networks, we aim to uncover which regions are becoming catalysts for global influence and how foreign film industries are reacting and evolving. This component is essential in synthesizing a deeper understanding of the dynamics that shape the global entertainment ecosystem.
+The global cinema landscape reflects the dominance of certain countries and languages in shaping the film industry. To be more specific, we plan to analyze our data to identify the top countries and languages in the film industry. Additionally, we examined how these factors relate to critical metrics such as budget and revenue, offering insights into their impact on global cinematic success. This approach provides a straightforward yet valuable perspective on the key players and their contributions to the entertainment ecosystem.
 
 ### Section 2: Blueprint of Success in Acting 
-In the movie lab, an actor's journey to stardom is a critical ingredient in our cinematic formula. Actors reach their breakthrough moments at different stages, at what age do they typically "ignite," and is there a critical mass of roles that triggers success, or can one iconic role act as a catalyst for fame? Does this trajectory vary between men and women? By examining trends in performance, box office revenue, audience ratings, and age, we aim to uncover the rising of actors.
+In the movie lab, an actor's journey to stardom is a critical ingredient in our cinematic formula. Actors reach their breakthrough moments at different stages—at what age do they typically "ignite," and is there a critical mass of roles that triggers success, or can one iconic role act as a catalyst for fame? Does this trajectory vary between men and women? To analyze this, we also use our *Oscar Score*, a weighted metric reflecting actors' achievements through Oscar wins and nominations, to uncover trends in performance, box office revenue, audience ratings, and age, shedding light on the paths actors take to rise to prominence.
 
  
-### Section 3: Troops and their influence on Movie Success
+### Section 3: Tropes and their influence on Movie Success
 Character tropes are central to storytelling, but which ones consistently lead to success on the big screen? In this section, we will explore how different character archetypes and gender pairings impact a film’s performance, from box office revenue to critics’ and audience ratings. By analyzing patterns in successful movies, we aim to uncover which tropes resonate most with viewers and whether certain dynamics—such as the pairing of leads by gender or genre-specific archetypes—play a significant role. This study seeks to provide insights into the storytelling elements that drive both commercial and critical acclaim, offering a deeper understanding of how character dynamics shape the overall success of a movie. 
 
 
@@ -46,6 +46,24 @@ Does a high budget truly guarantee commercial success, or are other factors more
 
 ### Section 5: Timing and Audience Reception
 Timing can make or break a movie’s success, but when is the optimal moment to release a film? This section explores the influence of seasonal and holiday periods on audience reception and box office revenue. By segmenting the year into distinct timeframes, we will analyze how factors such as genre, sequel status, and prevailing cultural moods align with release strategies. This investigation aims to identify patterns in audience behavior and uncover strategies that filmmakers and studios can use to maximize both reception and financial performance. Understanding the timing sweet spot could provide valuable insights into the art and science of film release planning.
+
+
+### Side note about "Towards Inclusivity Section"
+This section was initially intended to explore how gender and age representation impact commercial success across genres and regions, as well as whether the movie industry is evolving toward inclusivity in terms of gender, race, and age. However, after careful consideration, we decided to remove this idea from our analysis.
+
+
+The concept was intriguing but too vague and lacked sufficient data for meaningful analysis. So pursuing this risked producing unreliable conclusions.
+
+
+### Improvements for Milestone 3 
+The biggest challenge we faced in this milestone was the significant amount of missing data, particularly in critical columns like box office revenue and total revenue, which are essential for answering questions about what defines a movie's success. Dropping these entries or filling them with the column mean would result in unreliable analysis.
+
+
+To address this, we incorporated as many supplementary datasets as possible. While this improved the situation slightly, gaps remain. For the final milestone, we propose using the *OMDB API*. One team member purchased access and tested it on a subset of our dataset, successfully filling some of the missing values for box office revenue, runtime, and other key metrics. However, with over 80,000 entries in our dataset and the API's limit of ~500 calls per minute, it would take at least three hours to complete. We would like to confirm with our TA if using the API at this scale is acceptable.
+
+
+Additionally, if we can retrieve more revenue and box office data, we propose adjusting monetary values for inflation. Since our dataset spans movies from the 20th to the 21st century, accounting for inflation would provide a more accurate representation of financial success across decades. We would also like to confirm with our TA if this approach is advisable.
+
 
 
 ### Conclusion: Insights on Cinema’s Key to Success
