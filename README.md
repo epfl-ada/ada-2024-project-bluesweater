@@ -124,12 +124,17 @@ This section was initially intended to explore how gender and age representation
 The concept was intriguing but too vague and lacked sufficient data for meaningful analysis. So pursuing this risked producing unreliable conclusions.
 
 
-## Improvements for Milestone 3 
+## Possible Additions for Milestone 3 
 The biggest challenge we faced in this milestone was the significant amount of missing data, particularly in critical columns like box office revenue and total revenue, which are essential for answering questions about what defines a movie's success. Dropping these entries or filling them with the column mean would result in unreliable analysis.
 
 To address this, we incorporated as many supplementary datasets as possible. While this improved the situation slightly, gaps remain. For the final milestone, we propose using the *OMDB API*. One team member purchased access and tested it on a subset of our dataset, successfully filling some of the missing values for box office revenue, runtime, and other key metrics. However, with over 80,000 entries in our dataset and the API's limit of ~500 calls per minute, it would take at least three hours to complete. We would like to confirm with our TA if using the API at this scale is acceptable.
 
 Additionally, if we can retrieve more revenue and box office data, we propose adjusting monetary values for inflation. Since our dataset spans movies from the 20th to the 21st century, accounting for inflation would provide a more accurate representation of financial success across decades. We would also like to confirm with our TA if this approach is advisable.
+
+We could also could consider conducting a linear regression analysis to identify any positive additive coefficients between certain features (such as actor success, release timing, and tropes) and key outcomes like rankings, box office revenue, and overall movie success. This approach would help us pinpoint the "success predictors" in the data.
+
+Lastly, as our chosen theme was inspired by a scientific lab, we plan to incorporate this concept into our final data story. In this narrative, we are the scientists, the TA takes on the role of the head scientist or lab director, the sections represent the "chemical" ingredients, and our central question of movie success is the magic concoction we're trying to create. This thematic approach will help frame our analysis in a more engaging and cohesive manner.
+
 
 ## Proposed Timeline 
 
