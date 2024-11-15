@@ -136,7 +136,7 @@ We could also could consider conducting a linear regression analysis to identify
 Lastly, as our chosen theme was inspired by a scientific lab, we plan to incorporate this concept into our final data story. In this narrative, we are the scientists, the TA takes on the role of the head scientist or lab director, the sections represent the "chemical" ingredients, and our central question of movie success is the magic concoction we're trying to create. This thematic approach will help frame our analysis in a more engaging and cohesive manner.
 
 
-## Proposed Timeline (post H2 submission)
+## Proposed Timeline
 
 ### Week of Nov 25th: Planning & Preparation
 - Finalize data story structure and roles for team members.
