@@ -50,7 +50,61 @@ The Oscars dataset includes information about nominations, wins, and other key s
 The Metacritic dataset offers aggregated reviews and scores from critics, providing insights into how the industry and critics view movies. By incorporating this data, we were able to analyze the impact of critical reception on a movie's overall success and reputation. The dataset is available [here](https://www.kaggle.com/datasets/patkle/metacritic-scores-for-games-movies-tv-and-music).
 
 
-## Methods
+## General Methods
+
+### Initial Pickle Creation 
+To streamline our workflow and ensure efficient data handling, we created pickle files for each of the datasets we used in the project. This includes pickles for the CMU movies dataset, various helper datasets, and a master table that contained movie scores along with their corresponding names. These pickles are stored in the "pickles" directory, and the Jupyter notebooks used to generate them can be found in the "pipelines" directory. This approach allowed us to preprocess the data once and reuse it across different stages of analysis.
+
+
+### Section Division 
+To enhance collaboration and productivity, we divided the tasks across our team members, assigning each of us specific sections to work on. These sections were organized in individual notebooks located in the "src/sections" folder. By splitting the work, each team member could focus on specific aspects of the data analysis and cleaning, ensuring thorough attention to each section.
+
+
+
+### Data Exploration 
+Before diving into the data cleaning process, we performed an initial exploration of the data. This involved reviewing the types of variables, their distributions, and any apparent patterns. This exploratory phase allowed us to tailor our data cleaning techniques to the specific characteristics of each dataset, ensuring that we addressed issues effectively, such as identifying categorical versus continuous variables, and understanding missing data.
+
+
+### Data Cleaning 
+Throughout each section, we carried out thorough data cleaning processes. This included:
+
+- Standardizing formats such as date-time conversion, ensuring consistency across the dataset.
+- Removing insignificant null values (e.g., for variables that had less than 5% missing data) to avoid skewing results.
+- Standardizing ratings across multiple sources (e.g., IMDb, Metacritic) to have a consistent metric for evaluating movie performance.
+
+Our goal was to make the data consistent, accurate, and ready for analysis. This step was crucial to ensure that we could draw valid conclusions and insights from the data.
+
+
+### Data Enrichment 
+Wherever possible, we tried to enrich our datasets with additional information that could improve our analysis. This included:
+
+- We merged data from the TMDB dataset to fill in as many gaps for missing box office and revenue as possible. 
+
+- We used weighted averages to calculate movie success scores by incorporating metrics like Oscar wins, where movies with multiple awards received a higher weight in the score calculation.
+
+- We created a new column called avg_score, which took the average rating from three platforms, as well as from the professional and general public critic scores.
+
+
+This enrichment helped us create a more complete and robust dataset, enhancing the overall quality of our analysis.
+
+
+### Data Visualization
+To explore and communicate the relationships between different variables, we built several visualizations. For example:
+
+- Bar charts were used to visualize the top 20 countries by movie production count, box office, revenue, etc. 
+
+- Scatter plots to examine the relationship between budget and box office revenue, revenue with average rating, etc. 
+
+- We used box plots to visualize the distribution of tropes in films, highlighting the most prominent ones and comparing the male-to-female character ratio. Additionally, we examined how these distributions relate to the films' average scores.
+
+. These included plots that helped us uncover trends and patterns related to movie success. We also added regression lines to some of the visualizations to better illustrate potential correlations and offer insights into the factors that may influence a movie’s performance.
+
+
+### Analysis Proposal 
+Once all the sections were completed and the data was cleaned and enriched, we brought everything together in the "results.ipynb" notebook. In this notebook, we started with the original CMU movie dataset and incorporated the enriched data step by step. As we progressed, we highlighted the importance of each section in relation to our primary research questions. We also documented any key relationships we observed and provided evidence to support our claims, ensuring that our analysis was grounded in solid data and thorough exploration.
+
+
+
 
 ## How to use the library
 Tell us how the code is arranged, any explanations goes here.
@@ -66,7 +120,6 @@ The concept was intriguing but too vague and lacked sufficient data for meaningf
 
 ### Improvements for Milestone 3 
 The biggest challenge we faced in this milestone was the significant amount of missing data, particularly in critical columns like box office revenue and total revenue, which are essential for answering questions about what defines a movie's success. Dropping these entries or filling them with the column mean would result in unreliable analysis.
-
 
 To address this, we incorporated as many supplementary datasets as possible. While this improved the situation slightly, gaps remain. For the final milestone, we propose using the *OMDB API*. One team member purchased access and tested it on a subset of our dataset, successfully filling some of the missing values for box office revenue, runtime, and other key metrics. However, with over 80,000 entries in our dataset and the API's limit of ~500 calls per minute, it would take at least three hours to complete. We would like to confirm with our TA if using the API at this scale is acceptable.
 
@@ -101,4 +154,11 @@ The directory structure of new project looks like this:
 ├── pip_requirements.txt        <- File for installing python dependencies
 └── README.md
 ```
+
+## Appendix 
+
+### Questions asked during first TA meeting
+
+
+### Questions asked during second TA meeting
 
