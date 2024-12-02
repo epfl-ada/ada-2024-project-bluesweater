@@ -105,7 +105,7 @@ To explore and communicate the relationships between different variables, we bui
 
 - We used box plots to visualize the distribution of tropes in films, highlighting the most prominent ones and comparing the male-to-female character ratio. Additionally, we examined how these distributions relate to the films' average scores.
 
-. These included plots that helped us uncover trends and patterns related to movie success. We also added regression lines to some of the visualizations to better illustrate potential correlations and offer insights into the factors that may influence a movie’s performance.
+These included plots that helped us uncover trends and patterns related to movie success. We also added regression lines to some of the visualizations to better illustrate potential correlations and offer insights into the factors that may influence a movie’s performance.
 
 
 ### Analysis Proposition  
