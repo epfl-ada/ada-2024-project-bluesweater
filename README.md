@@ -1,5 +1,7 @@
 
 # Lights, Camera, Success: What Makes a Movie Shine at the Box Office?
+
+## Link: https://davidschulmeister.com/datastory-bluesweater/
 ## Abstract
 
 Welcome to the Movie Lab, where we view movies as complex chemical reactions—blending various elements that can either explode into blockbuster magic or fizzle into obscurity!
